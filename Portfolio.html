@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header flex justify-between items-center ">
+        <a href="" class="logo text-[2.5rem] font-[600]">Portfolio.</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <nav class="navbar">
+            <span class="nav-active">
+                
+            <a href="#home" class="active">Home</a>
+            <a href="#about" >About Me</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+            
+        </nav>
+    </header>
+    <!-- Intro section design -->
+    <section class="home flex items-center" id="home">
+        <div class="home-content max-w-[60rem] z-[99]">
+            
+            <h1 class="text-[white]">I am Sharath Teja</h1>
+            <div class="text-animate">
+                <h3 class="multiple-text">Frontend developer</h3>
+                
+            </div>
+            <div class="text-animate">
+                <h3 class="multiple-text">Java DSA</h3>
+                
+            </div>
+          
+                
+                
+
+            <p>Hi, I'm very passionate about frontend developer. I specialize in creating responsive, user-friendly, and visually appealing web applications using technologies like HTML, CSS, JavaScript, and modern frameworks like Tailwind CSS. I have a good command of programming languages such as Python, Java, and C, which I use to create innovative solutions and develop new projects.</p>
+
+            <div class="btn-box relative flex justify-between w-[34.5rem] h-[5rem]">
+                <a href="Sharath_resume.docx"  class="btn relative inline-flex justify-center items-center w-[16rem] h-[100%]" download>Download CV</a>
+            </div>
+        </div>
+        <div class="social absolute bottom-[4rem] w-[170px] flex justify-between">
+            <a href="https://www.onlinegdb.com/myfiles"><i class='bx bxl-product-hunt'></i></a>
+            <a href="https://www.linkedin.com/feed/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/"><i class='bx bxl-github'></i></a>
+        </div>
+        <div class="home-imhover"></div>
+        
+    </section>
+    <!-- About section design -->
+    <section class="about flex justify-center items-center flex-col gap-[2rem] pb-[6rem]" id="about">
+        <h2 class="heading ">About <span>Me</span></h2>
+        <div class="about-img relative w-[25rem] h-[25rem] rounded-[50%] flex justify-center items-center">
+            <img src="/images/sharath_teja.png" alt="" class="w-[70%] h-[80%] rounded-[50%]">
+            <span class="circle"></span>
+        </div>
+        <div class="about-content text-center">
+            <h3 class="text-[2.6rem]">Frontend developer</h3>
+            <p class="text-[1.6rem]"> I'm  a confident and dedicated frontend developer who believes in excellence and continuous growth.I have a good command of programming languages such as Python, Java, and C, which I use to create innovative solutions and develop new projects.
+                <span id="more-text" style="display: none;" class="text-white">
+                    As an introvert person, I find strength in focus and deep thinking.Beyond work, I enjoy reading books, listening to music, watching cricket and movies.A morning person by nature, I believe in starting the day with focus and determination. I’m passionate about learning, growing, and continuously challenging myself to push boundaries and create meaningful contributions.
+                  </span>
+            </p>
+
+        </div>
+        <div class="btn-box relative inline-block w-[15rem] justify-between  h-[5rem] ">
+           <button class="btn relative inline-flex justify-center items-center w-[16rem] h-[100%]" id="read-more-btn" onclick="toggleReadMore()">Read More</button>
+        </div>
+    </section>
+    <!-- Education section design -->
+    <section class="education flex justify-center items-center flex-col  min-h-[auto] pb-[5rem] mb-[11rem]" id="education">
+        <h2 class=" heading ">My <span>Journey</span></h2>
+        <div class="education-row flex flex-wrap gap-[5rem]">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>2022-2026</div>
+                        <h3>BTech-BVRIT</h3>
+                    <p>I completed my B.Tech from BVRIT College, specializing in Computer Science and Engineering with a focus on Artificial Intelligence and Machine Learning (CSM - AI & ML). This program equipped me with a strong foundation in computer science principles and advanced AI/ML concepts, including data analysis, machine learning algorithms, and neural networks.</p>                    
+                </div>
+                </div>
+
+                <div class="education-content">
+                    <div class="content">
+                    <div class="year"><i class='bx bxs-calendar'></i>2020-2022</div>
+                    <h3>Intermediate-Kakatiya</h3>
+                    <p>I completed my Intermediate education at Kakatiya College, Nizamabad, where I pursued the MPC (Mathematics, Physics, and Chemistry) stream. This curriculum provided me with a strong foundation in analytical thinking, problem-solving, and scientific concepts, which are crucial in both engineering and technology fields.</p>
+                </div>
+            </div>
+
+            <div class="education-content">
+                <div class="content">
+                <div class="year"><i class='bx bxs-calendar'></i>2019-2020</div>
+                <h3>SSC-Kakatiya</h3>
+                <p>I completed my SSC at Kakatiya Olympaid School, where I earned a GPA of 10, reflecting my dedication to academic excellence and strong work ethic.</p>
+            </div>
+        </div>
+
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+    <!-- skills section design -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Python <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Java <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Javascript <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>DSA <span>20%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="skills-column">
+                <h3 class="title">Techincal skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Artificial Intelligence & Machine Learning <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Web Development<span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Data mining <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Other<span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- contact section design -->
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="" onsubmit="SendEmail(); reset(); return false;"  class="max-w-[70rem] text-center ">
+            <div class="input-box relative flex justify-between flex-wrap">
+                <div class="input-field">
+                    <input type="tex" placeholder="GANAPURAM SHARATH TEJA" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="input-box relative flex justify-between flex-wrap">
+                <div class="input-field">
+                    <input type="Number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="text-area">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+            </div>
+            <div class="btn-box btns relative inline-block w-[15rem] justify-between  h-[5rem]">
+                <button type="button" class="btn relative inline-flex justify-center items-center w-[16rem] h-[100%]">Submit</button>
+            </div>
+        </form>
+     </section>
+          
+</body>
+</html>
