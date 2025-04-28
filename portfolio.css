@@ -63,7 +63,7 @@ section{
 }
 .home{
     padding: 0 9%;
-    background: url('sharath_teja.png')  no-repeat ;
+    background: url("sharath_teja.png")  no-repeat ;
     background-size: contain;
     background-position: 70rem 0rem; 
 }
