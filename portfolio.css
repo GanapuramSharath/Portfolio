@@ -62,10 +62,12 @@ section{
     padding: 10rem 9% 2rem;
 }
 .home{
-    padding: 0 9%;
-    background: url('sharath_teja.png')  no-repeat ;
+    padding: 0;
+    height: 400px;
+    width: 100%;
+    background: url('sharath_teja.png') no-repeat center center;
     background-size: contain;
-    background-position: 70rem 0rem; 
+    border: 2px solid red;
 }
 .home-imhover{
     position: absolute;
@@ -74,7 +76,6 @@ section{
     width: 45%;
     height: 100%;
     background: transparent;
-    
     transition: 3s;
 }
 .home-imhover:hover{
