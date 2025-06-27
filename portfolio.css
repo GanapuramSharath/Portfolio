@@ -65,7 +65,7 @@ section{
     padding: 0;
     height: 400px;
     width: 100%;
-    background: url('sharath_teja.png') no-repeat center center;
+    background: url('sharath_teja.png') no-repeat;
     background-size: contain;
     border: 2px solid red;
 }
