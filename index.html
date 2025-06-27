@@ -16,11 +16,11 @@
         <div class="bx bx-menu" id="menu-icon"></div>
         <nav class="navbar">
             <span class="nav-active">
-                
             <a href="#home" class="active">Home</a>
             <a href="#about" >About Me</a>
             <a href="#education">Education</a>
             <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
             
         </nav>
@@ -60,7 +60,7 @@
     <section class="about flex justify-center items-center flex-col gap-[2rem] pb-[6rem]" id="about">
         <h2 class="heading ">About <span>Me</span></h2>
         <div class="about-img relative w-[25rem] h-[25rem] rounded-[50%] flex justify-center items-center">
-            <img src="sharath_teja.png" alt="" class="w-[70%] h-[80%] rounded-[50%]">
+            <img src="/images/sharath_teja.png" alt="" class="w-[70%] h-[80%] rounded-[50%]">
             <span class="circle"></span>
         </div>
         <div class="about-content text-center">
@@ -122,11 +122,11 @@
                 <div class="skills-box">
                     <div class="skills-content">
                         <div class="progress">
-                            <h3>Python <span>80%</span></h3>
+                            <h3>Java (OOP + DSA) <span>80%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
                         <div class="progress">
-                            <h3>Java <span>70%</span></h3>
+                            <h3>Python (Problem Solving, ML) <span>70%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
                         <div class="progress">
@@ -134,14 +134,14 @@
                             <div class="bar"><span></span></div>
                         </div>
                         <div class="progress">
-                            <h3>DSA <span>20%</span></h3>
+                            <h3>SQL (MySQL, Queries)<span>70%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
 
                     </div>
                 </div>
             </div>
-            <div class="skills-column">
+              <div class="skills-column">
                 <h3 class="title">Techincal skills</h3>
                 <div class="skills-box">
                     <div class="skills-content">
@@ -154,11 +154,11 @@
                             <div class="bar"><span></span></div>
                         </div>
                         <div class="progress">
-                            <h3>Data mining <span>60%</span></h3>
+                            <h3>Version Control (Git, GitHub)<span>60%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
                         <div class="progress">
-                            <h3>Other<span>70%</span></h3>
+                            <h3>Databases (MySQL, MongoDB)<span>70%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
 
@@ -167,6 +167,49 @@
             </div>
         </div>
     </section>
+    <!-- Projects section -->
+<section class="projects py-[6rem] px-[2rem]" id="projects">
+    <h2 class="heading text-center text-[3rem] font-bold mb-[3rem] text-white">My <span class="text-blue-400">Projects</span></h2>
+    <div class="flex flex-wrap justify-center gap-[3rem] ">
+        
+        <!-- Project 1 -->
+        <div class="bg-[#1a1a1a] text-white p-[2rem] rounded-[1rem] max-w-[350px] shadow-lg hover:shadow-blue-500 transition duration-300 hover:scale-110">
+            <h3 class="text-[1.8rem] font-semibold mb-[1rem] text-[#00abf0]">Face Emotion Recognition</h3>
+            <p class="text-[1.4rem] mb-[1rem]">This project is a real-time facial emotion recognition system built using Python, OpenCV, and a Convolutional Neural Network (CNN). The model is trained on the FER-2013 dataset, a widely used dataset for facial expression analysis, which contains grayscale images of facial expressions categorized into seven emotions: happy, sad, angry, surprise, fear, disgust, and neutral.
+
+The system captures live webcam footage, detects faces using Haar cascades, and classifies the detected faces into emotion categories using the trained CNN model.
+
+</p>
+            <p class="text-[1.2rem] mb-[1rem]"><strong>Tech Stack:</strong> Python, TensorFlow, OpenCV</p>
+            <a href="https://github.com/GanapuramSharath/Face_emotion_recognition" target="_blank" class="text-blue-400 underline">GitHub</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="bg-[#1a1a1a] text-white p-[2rem] rounded-[1rem] max-w-[350px] min-h-[400px] shadow-lg hover:shadow-blue-500 transition duration-300 hover:scale-110">
+            <h3 class="text-[1.8rem] font-semibold mb-[1rem] text-[#00abf0]">Amazon Clone</h3>
+            <p class="text-[1.4rem] mb-[1rem]">A fully responsive front-end clone of the Amazon website, designed to replicate its core UI components and responsive behavior. The project includes product cards, a navigation bar, search box, and a grid layout similar to the real Amazon site. This clone was built using HTML, CSS, JavaScript, and Tailwind CSS, with attention to detail in responsive design and user interaction.
+
+This project helped enhance frontend development skills including DOM manipulation, CSS layout design, and Tailwind component structure.
+
+</p>
+            <p class="text-[1.2rem] mb-[1rem]"><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Tailwind</p>
+            <a href="https://github.com/GanapuramSharath/Amazon-Clone-Using-Html-CSS-Javascript" target="_blank" class="text-blue-400 underline">GitHub</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="bg-[#1a1a1a] text-white p-[2rem] rounded-[1rem] max-w-[350px] shadow-lg hover:shadow-blue-500 transition duration-300 hover:scale-110">
+            <h3 class="text-[1.8rem] font-semibold mb-[1rem] font text-[#00abf0]">Toxic Comment Classification Using Deep Learning</h3>
+            <p class="text-[1.4rem] mb-[1rem]">This project is a deep learning-based NLP application that detects and classifies toxic comments (e.g., insults, threats, hate speech) in text using a hybrid CNN-RNN architecture. The model is trained on the Jigsaw Toxic Comment Classification dataset, which contains thousands of labeled comments from Wikipedia.
+
+The pipeline includes data cleaning, tokenization, embedding (like GloVe or word2vec), and model tuning. The final model performs multi-label classification across several toxicity categories.
+
+</p>
+            <p class="text-[1.2rem] mb-[1rem]"><strong>Tech Stack:</strong> Python, TensorFlow</p>
+        </div>
+
+    </div>
+</section>
+
    
     <!-- contact section design -->
      <section class="contact" id="contact">
@@ -192,7 +235,7 @@
                     <span class="focus"></span>
                 </div>
             </div>
-            <div class="text-area">
+            <div class="text-area input-field">
                 <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" name="message" required></textarea>
                 <span class="focus"></span>
             </div>
@@ -201,6 +244,8 @@
             </div>
         </form>
      </section>
+    
+
           
 </body>
 <script src="portfolio.js"></script>
