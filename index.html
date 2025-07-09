@@ -31,7 +31,7 @@
             
             <h1 class="text-[white]">I am Sharath Teja</h1>
             <div class="text-animate">
-                <h3 class="multiple-text">Frontend developer</h3>
+                <h3 class="multiple-text">web developer</h3>
                 
             </div>
             <div class="text-animate">
@@ -42,7 +42,9 @@
                 
                 
 
-            <p>Hi, I'm very passionate about frontend developer. I specialize in creating responsive, user-friendly, and visually appealing web applications using technologies like HTML, CSS, JavaScript, and modern frameworks like Tailwind CSS. I have a good command of programming languages such as Python, Java, and C, which I use to create innovative solutions and develop new projects.</p>
+            <p>I’m a passionate Web Developer with experience in HTML, CSS, JavaScript, and ReactJS.
+I love creating clean, responsive, and accessible websites that offer seamless user experiences.
+With a foundation in Java and problem-solving, I approach every project with clarity, precision, and purpose..</p>
 
             <div class="btn-box relative flex justify-between w-[34.5rem] h-[5rem]">
                 <a href="Sharath_resume.docx"  class="btn relative inline-flex justify-center items-center w-[16rem] h-[100%]" download>Download CV</a>
@@ -57,25 +59,30 @@
         
     </section>
     <!-- About section design -->
-   <section class="home" id="home">
-  <div class="home-content">
-    <div class="home-text">
-      <h1>I am <span class="text-white">Sharath Teja</span></h1>
-      <h3 class="animated-text">
-        <span>Frontend developer</span>
-        <span>Java DSA</span>
-      </h3>
-      <p>
-        Hi, I'm very passionate about frontend development. I specialize in creating responsive, user-friendly, and visually appealing web applications using technologies like HTML, CSS, JavaScript, and frameworks like Tailwind CSS. I also have a good command of programming languages such as Python, Java, and C.
-      </p>
-      <a href="Sharath_resume.docx" download class="btn">Download CV</a>
-    </div>
-    <div class="home-image">
-      <img src="sharath_teja.p" alt="Sharath Teja" />
-    </div>
-  </div>
-</section>
+    <section class="about flex justify-center items-center flex-col gap-[2rem] pb-[6rem]" id="about">
+        <h2 class="heading ">About <span>Me</span></h2>
+        <div class="about-img relative w-[25rem] h-[25rem] rounded-[50%] flex justify-center items-center">
+            <img src="./images/sharath_teja.png" alt="" class="w-[70%] h-[80%] rounded-[50%]">
+            <span class="circle"></span>
+        </div>
+        <div class="about-content text-center">
+            <h3 class="text-[2.6rem]">Aspiring Full-Stack Web Developer</h3>
+            <p class="text-[1.6rem]">I’m a curious and self-driven Web Developer with a strong interest in frontend technologies and user interface design.
+My skills include building responsive interfaces using modern tools and frameworks like Tailwind CSS and ReactJS (basic).
+I also enjoy solving logical problems through Java (OOP & DSA), which adds depth to my development approach.
+                <span id="more-text" style="display: none;" class="text-white">
+                   I have a beginner-level understanding of digital marketing, including SEO and Google Analytics, which helps me create better user-focused designs.
+As an introvert, I bring deep focus, thoughtful execution, and a calm mindset to my work.
+I’m proactive by nature and always eager to learn, improve, and make meaningful contributions through technology.
 
+                  </span>
+            </p>
+
+        </div>
+        <div class="btn-box relative inline-block w-[15rem] justify-between  h-[5rem] ">
+           <button class="btn relative inline-flex justify-center items-center w-[16rem] h-[100%]" id="read-more-btn" onclick="toggleReadMore()">Read More</button>
+        </div>
+    </section>
     <!-- Education section design -->
     <section class="education flex justify-center items-center flex-col  min-h-[auto] pb-[5rem] mb-[11rem]" id="education">
         <h2 class=" heading ">My <span>Journey</span></h2>
@@ -150,15 +157,15 @@
                             <div class="bar"><span></span></div>
                         </div>
                         <div class="progress">
-                            <h3>Web Development<span>50%</span></h3>
+                            <h3>Web Development<span>70%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
                         <div class="progress">
-                            <h3>Version Control (Git, GitHub)<span>60%</span></h3>
+                            <h3>UI/UX  (Wireframes, Layouts)<span>70%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
                         <div class="progress">
-                            <h3>Databases (MySQL, MongoDB)<span>70%</span></h3>
+                            <h3>Digital Marketing (SEO, Analytics)<span>60%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
 
@@ -193,7 +200,7 @@ This project helped enhance frontend development skills including DOM manipulati
 
 </p>
             <p class="text-[1.2rem] mb-[1rem]"><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Tailwind</p>
-            <a href="https://github.com/GanapuramSharath/Amazon-Clone-Using-Html-CSS-Javascript" target="_blank" class="text-blue-400 underline">GitHub</a>
+            <a href="https://willowy-valkyrie-bf09c2.netlify.app/" target="_blank" class="text-blue-400 underline">LiveDemo</a>
         </div>
 
         <!-- Project 3 -->
@@ -214,35 +221,41 @@ The pipeline includes data cleaning, tokenization, embedding (like GloVe or word
     <!-- contact section design -->
      <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
-        <form  action="https://formspree.io/f/xqaqayjy"   method="POST"  class="max-w-[70rem] text-center">
-            <div class="input-box relative flex justify-between flex-wrap">
-                <div class="input-field">
-                    <input type="text" placeholder="Name" required>
-                    <span class="focus"></span>
-                </div>
-                <div class="input-field">
-                    <input type="email" placeholder="Email Address" name="email" required>
-                    <span class="focus"></span>
-                </div>
-            </div>
-            <div class="input-box relative flex justify-between flex-wrap">
-                <div class="input-field">
-                    <input type="Number" placeholder="Mobile Number" name="message" required>
-                    <span class="focus"></span>
-                </div>
-                <div class="input-field">
-                    <input type="text" placeholder="Email Subject" name="message" required>
-                    <span class="focus"></span>
-                </div>
-            </div>
-            <div class="text-area input-field">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" name="message" required></textarea>
-                <span class="focus"></span>
-            </div>
-            <div class="btn-box btns relative inline-block w-[15rem] justify-between  h-[5rem]">
-                <button  class="btn relative inline-flex justify-center items-center w-[16rem] h-[100%]" type="submit">Submit</button>
-            </div>
-        </form>
+      <form action="https://formspree.io/f/xqaqayjy" method="POST" class="max-w-[70rem] text-center">
+  <div class="input-box relative flex justify-between flex-wrap">
+    <div class="input-field">
+      <input type="text" name="name" placeholder="Name" required>
+      <span class="focus"></span>
+    </div>
+    <div class="input-field">
+      <input type="email" name="email" placeholder="Email Address" required>
+      <span class="focus"></span>
+    </div>
+  </div>
+
+  <div class="input-box relative flex justify-between flex-wrap">
+    <div class="input-field">
+      <input type="number" name="phone" placeholder="Mobile Number" min="1000000000" max="9999999999"
+        oninput="this.value = this.value.replace(/[^0-9]/g, '')" required>
+      <span class="focus"></span>
+    </div>
+    <div class="input-field">
+      <input type="text" name="subject" placeholder="Email Subject" required>
+      <span class="focus"></span>
+    </div>
+  </div>
+
+  <div class="text-area input-field">
+    <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+    <span class="focus"></span>
+  </div>
+
+  <div class="btn-box btns relative inline-block w-[15rem] justify-between h-[5rem]">
+    <button class="btn relative inline-flex justify-center items-center w-[16rem] h-[100%]" type="submit">Submit</button>
+  </div>
+</form>
+
+
      </section>
     
 
