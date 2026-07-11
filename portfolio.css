@@ -112,6 +112,26 @@ section{
         opacity:0;
     }
 }
+.tech-stack{
+    display:flex;
+    flex-wrap:wrap;
+    gap:1rem;
+    margin:2rem 0;
+}
+
+.tech-stack span{
+    padding:.7rem 1.5rem;
+    border:.2rem solid var(--main-color);
+    border-radius:2rem;
+    color:var(--main-color);
+    font-size:1.4rem;
+    transition:.3s;
+}
+
+.tech-stack span:hover{
+    background:var(--main-color);
+    color:var(--bg--color);
+}
 
 .home-content p{
     margin: 2rem 0 4rem;
