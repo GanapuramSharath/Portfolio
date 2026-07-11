@@ -122,17 +122,7 @@ section{
     gap:1rem;
     margin:2rem 0;
 }
-.hello{
-    font-size:2.2rem;
-    color:var(--text-color);
-    margin-bottom:.5rem;
-}
 
-.fullname{
-    font-size:1.6rem;
-    color:var(--main-color);
-    margin-bottom:1rem;
-}
 .tech-stack span{
     padding:.7rem 1.5rem;
     border:.2rem solid var(--main-color);
