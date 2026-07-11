@@ -144,20 +144,27 @@ section{
     margin-top:3rem;
 }
 
-
 .btn-box .btn{
-    background: var(--main-color);
-    border: .2rem solid var(--main-color);
-    width:18rem;
+    position:relative;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+
+    width:16rem;
     height:5rem;
-    border-radius: .8rem;
-    font-size: 1.6rem;
-    font-weight: 700;
-    letter-spacing: .1rem;
-    color: var(--bg--color);
-    z-index: 1;
-    overflow: hidden;
-    transition: .5s;
+
+    background:var(--main-color);
+    border:.2rem solid var(--main-color);
+    border-radius:.8rem;
+
+    font-size:1.6rem;
+    font-weight:700;
+    letter-spacing:.1rem;
+    color:var(--bg--color);
+
+    overflow:hidden;
+    z-index:1;
+    transition:.5s;
 }
 .btn-box .btn:hover{
     color: var(--main-color);
