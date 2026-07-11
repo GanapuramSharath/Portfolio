@@ -258,83 +258,151 @@ GPA: <strong>10/10</strong>
 
 </section>
     <!-- Projects section -->
-<section class="projects py-[6rem] px-[2rem]" id="projects">
+<section class="projects" id="projects">
 
-    <h2 class="heading text-center text-[3rem] font-bold mb-[3rem] text-white">
-        Featured <span class="text-blue-400">Projects</span>
+    <h2 class="heading">
+        Featured <span>Projects</span>
     </h2>
 
-    <div class="flex flex-wrap justify-center gap-[3rem]">
+    <div class="projects-container">
 
-        <!-- Jobify -->
-        <div class="bg-[#1a1a1a] text-white p-[2rem] rounded-[1rem] max-w-[370px] shadow-lg hover:shadow-blue-500 transition duration-300 hover:scale-105">
+        <!-- ================= Jobify ================= -->
 
-            <h3 class="text-[1.8rem] font-semibold mb-[1rem] text-[#00abf0]">
-                Jobify – Full Stack Job Portal
-            </h3>
+        <div class="project-card">
 
-            <p class="text-[1.4rem] mb-[1rem]">
-                A production-style job portal that enables recruiters to post job openings and candidates to search and apply securely. Features role-based authentication, protected REST APIs, recruiter and candidate dashboards, resume management, and responsive UI.
-            </p>
+            <div class="project-image">
+                <img src="images/jobify.png" alt="Jobify">
+            </div>
 
-            <p class="text-[1.2rem] mb-[1rem]">
-                <strong>Tech Stack:</strong>
-                React, TypeScript, Node.js, Express.js,
-                PostgreSQL, Prisma ORM, JWT, Tailwind CSS
-            </p>
+            <div class="project-content">
 
-            <div class="flex gap-5">
-                <a href="#" class="text-blue-400 underline">Live Demo</a>
-                <a href="#" class="text-blue-400 underline">GitHub</a>
+                <span class="project-badge">⭐ Featured</span>
+
+                <h3>Jobify – Full Stack Job Portal</h3>
+
+                <p>
+                    A production-ready job portal where recruiters can post jobs and
+                    candidates can search and apply. Includes authentication,
+                    role-based dashboards, resume upload and protected REST APIs.
+                </p>
+
+                <ul class="project-features">
+                    <li>✔ JWT Authentication</li>
+                    <li>✔ Recruiter Dashboard</li>
+                    <li>✔ Candidate Dashboard</li>
+                    <li>✔ Resume Upload</li>
+                    <li>✔ REST APIs</li>
+                </ul>
+
+                <div class="project-tech">
+                    <span>React</span>
+                    <span>TypeScript</span>
+                    <span>Node.js</span>
+                    <span>Express</span>
+                    <span>PostgreSQL</span>
+                    <span>Prisma</span>
+                </div>
+
+                <div class="project-buttons">
+
+                    <a href="YOUR_LIVE_LINK" target="_blank">
+                        Live Demo
+                    </a>
+
+                    <a href="YOUR_GITHUB_LINK" target="_blank">
+                        GitHub
+                    </a>
+
+                </div>
+
             </div>
 
         </div>
 
-        <!-- Music Streaming -->
-        <div class="bg-[#1a1a1a] text-white p-[2rem] rounded-[1rem] max-w-[370px] shadow-lg hover:shadow-blue-500 transition duration-300 hover:scale-105">
-            <span class="featured-badge">⭐ Featured</span>
-            <h3 class="text-[1.8rem] font-semibold mb-[1rem] text-[#00abf0]">
-                Music Streaming Web App
-            </h3>
+        <!-- ================= Music App ================= -->
 
-            <p class="text-[1.4rem] mb-[1rem]">
-                A responsive music streaming interface with playlist browsing, music controls, search functionality, and a modern user experience. Built with reusable React components and responsive layouts.
-            </p>
+        <div class="project-card">
 
-            <p class="text-[1.2rem] mb-[1rem]">
-                <strong>Tech Stack:</strong>
-                React.js, JavaScript, Tailwind CSS
-            </p>
+            <div class="project-image">
+                <img src="images/music.png" alt="Music App">
+            </div>
 
-            <div class="flex gap-5">
-                <a href="#" class="text-blue-400 underline">Live Demo</a>
-                <a href="#" class="text-blue-400 underline">GitHub</a>
+            <div class="project-content">
+
+                <h3>Music Streaming Web App</h3>
+
+                <p>
+                    Responsive music streaming application featuring playlist
+                    browsing, search, reusable React components and modern UI.
+                </p>
+
+                <ul class="project-features">
+                    <li>✔ Responsive UI</li>
+                    <li>✔ Search</li>
+                    <li>✔ Playlist</li>
+                    <li>✔ React Components</li>
+                </ul>
+
+                <div class="project-tech">
+                    <span>React</span>
+                    <span>JavaScript</span>
+                    <span>Tailwind CSS</span>
+                </div>
+
+                <div class="project-buttons">
+
+                    <a href="YOUR_LIVE_LINK" target="_blank">
+                        Live Demo
+                    </a>
+
+                    <a href="YOUR_GITHUB_LINK" target="_blank">
+                        GitHub
+                    </a>
+
+                </div>
+
             </div>
 
         </div>
 
-        <!-- Face Emotion Recognition -->
-        <div class="bg-[#1a1a1a] text-white p-[2rem] rounded-[1rem] max-w-[370px] shadow-lg hover:shadow-blue-500 transition duration-300 hover:scale-105">
+        <!-- ================= Face Emotion ================= -->
 
-            <h3 class="text-[1.8rem] font-semibold mb-[1rem] text-[#00abf0]">
-                Face Emotion Recognition
-            </h3>
+        <div class="project-card">
 
-            <p class="text-[1.4rem] mb-[1rem]">
-                Developed a real-time facial emotion recognition system capable of detecting faces from live webcam input and classifying emotions using a Convolutional Neural Network trained on the FER-2013 dataset.
-            </p>
+            <div class="project-image">
+                <img src="images/emotion.png" alt="Face Emotion Recognition">
+            </div>
 
-            <p class="text-[1.2rem] mb-[1rem]">
-                <strong>Tech Stack:</strong>
-                Python, TensorFlow, OpenCV
-            </p>
+            <div class="project-content">
 
-            <div class="flex gap-5">
-                <a href="https://github.com/GanapuramSharath/Face_emotion_recognition"
-                    target="_blank"
-                    class="text-blue-400 underline">
-                    GitHub
-                </a>
+                <h3>Face Emotion Recognition</h3>
+
+                <p>
+                    Deep learning application that detects facial emotions in
+                    real-time using OpenCV and a CNN trained on FER-2013.
+                </p>
+
+                <ul class="project-features">
+                    <li>✔ OpenCV</li>
+                    <li>✔ CNN Model</li>
+                    <li>✔ Real-time Detection</li>
+                </ul>
+
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>TensorFlow</span>
+                    <span>OpenCV</span>
+                </div>
+
+                <div class="project-buttons">
+
+                    <a href="https://github.com/GanapuramSharath/Face_emotion_recognition"
+                       target="_blank">
+                        GitHub
+                    </a>
+
+                </div>
+
             </div>
 
         </div>
