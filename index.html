@@ -156,74 +156,106 @@ GPA: <strong>10/10</strong>
 
     </section>
     <!-- skills section design -->
-    <section class="skills" id="skills">
-    <h2 class="heading">My <span>Tech Stack</span></h2>
+<section class="skills" id="skills">
 
-    <div class="skills-row">
+    <h2 class="heading">
+        My <span>Tech Stack</span>
+    </h2>
+
+    <div class="skills-container">
 
         <!-- Frontend -->
-        <div class="skills-column">
-            <h3 class="title">Frontend</h3>
+        <div class="skill-card">
+            <i class='bx bx-code-alt'></i>
 
-            <div class="skills-box">
-                <div class="skills-content">
+            <h3>Frontend</h3>
 
-                    <div class="progress">
-                        <h3>React.js</h3>
-                        <div class="bar"><span></span></div>
-                    </div>
-
-                    <div class="progress">
-                        <h3>TypeScript</h3>
-                        <div class="bar"><span></span></div>
-                    </div>
-
-                    <div class="progress">
-                        <h3>JavaScript (ES6+)</h3>
-                        <div class="bar"><span></span></div>
-                    </div>
-
-                    <div class="progress">
-                        <h3>HTML5 & CSS3 / Tailwind CSS</h3>
-                        <div class="bar"><span></span></div>
-                    </div>
-
-                </div>
+            <div class="skill-tags">
+                <span>React.js</span>
+                <span>TypeScript</span>
+                <span>JavaScript (ES6+)</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Tailwind CSS</span>
             </div>
         </div>
 
         <!-- Backend -->
-        <div class="skills-column">
-            <h3 class="title">Backend & Database</h3>
+        <div class="skill-card">
+            <i class='bx bx-server'></i>
 
-            <div class="skills-box">
-                <div class="skills-content">
+            <h3>Backend</h3>
 
-                    <div class="progress">
-                        <h3>Node.js & Express.js</h3>
-                        <div class="bar"><span></span></div>
-                    </div>
+            <div class="skill-tags">
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>REST APIs</span>
+                <span>JWT Authentication</span>
+                <span>Prisma ORM</span>
+            </div>
+        </div>
 
-                    <div class="progress">
-                        <h3>PostgreSQL & Prisma ORM</h3>
-                        <div class="bar"><span></span></div>
-                    </div>
+        <!-- Database -->
+        <div class="skill-card">
+            <i class='bx bx-data'></i>
 
-                    <div class="progress">
-                        <h3>REST APIs & JWT Authentication</h3>
-                        <div class="bar"><span></span></div>
-                    </div>
+            <h3>Database</h3>
 
-                    <div class="progress">
-                        <h3>Git, GitHub & Postman</h3>
-                        <div class="bar"><span></span></div>
-                    </div>
+            <div class="skill-tags">
+                <span>PostgreSQL</span>
+                <span>MySQL</span>
+                <span>SQL</span>
+            </div>
+        </div>
 
-                </div>
+        <!-- Programming -->
+        <div class="skill-card">
+            <i class='bx bx-terminal'></i>
+
+            <h3>Programming</h3>
+
+            <div class="skill-tags">
+                <span>Java</span>
+                <span>Python</span>
+                <span>OOP</span>
+                <span>Data Structures</span>
+                <span>Algorithms</span>
+            </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-card">
+            <i class='bx bx-wrench'></i>
+
+            <h3>Tools</h3>
+
+            <div class="skill-tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>Postman</span>
+                <span>VS Code</span>
+                <span>Netlify</span>
+                <span>Render</span>
+            </div>
+        </div>
+
+        <!-- Currently Learning -->
+        <div class="skill-card">
+            <i class='bx bx-book-reader'></i>
+
+            <h3>Currently Learning</h3>
+
+            <div class="skill-tags">
+                <span>Docker</span>
+                <span>AWS</span>
+                <span>System Design</span>
+                <span>CI/CD</span>
+                <span>Testing</span>
             </div>
         </div>
 
     </div>
+
 </section>
     <!-- Projects section -->
 <section class="projects py-[6rem] px-[2rem]" id="projects">
@@ -260,7 +292,7 @@ GPA: <strong>10/10</strong>
 
         <!-- Music Streaming -->
         <div class="bg-[#1a1a1a] text-white p-[2rem] rounded-[1rem] max-w-[370px] shadow-lg hover:shadow-blue-500 transition duration-300 hover:scale-105">
-
+            <span class="featured-badge">⭐ Featured</span>
             <h3 class="text-[1.8rem] font-semibold mb-[1rem] text-[#00abf0]">
                 Music Streaming Web App
             </h3>
