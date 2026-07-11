@@ -112,13 +112,27 @@ section{
         opacity:0;
     }
 }
+.home-content p{
+    font-size:1.6rem;
+    margin:2rem 0 4rem;
+}
 .tech-stack{
     display:flex;
     flex-wrap:wrap;
     gap:1rem;
     margin:2rem 0;
 }
+.hello{
+    font-size:2.2rem;
+    color:var(--text-color);
+    margin-bottom:.5rem;
+}
 
+.fullname{
+    font-size:1.6rem;
+    color:var(--main-color);
+    margin-bottom:1rem;
+}
 .tech-stack span{
     padding:.7rem 1.5rem;
     border:.2rem solid var(--main-color);
@@ -230,7 +244,6 @@ section{
     height: 100%;
     background: transparent;
     border: 2px solid red;
-
 
 }
 .about{
