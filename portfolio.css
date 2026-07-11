@@ -190,13 +190,12 @@ section{
     margin-top:2.5rem;
 }
 
-
-
 .social a{
     display:flex;
     justify-content:center;
     align-items:center;
-
+     position:relative;
+    overflow:hidden;
     width:4.5rem;
     height:4.5rem;
 
@@ -221,19 +220,15 @@ section{
     margin-bottom: 3rem;
     text-align: center;
 }
-.social a:hover{
-    color: var(--bg--color);
-}
+
 .social a::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: var(--main-color);
-    z-index: -1;
-    transition: .5s;
+    content:"";
+    position:absolute;
+    inset:0;
+    width:0;
+    background:var(--main-color);
+    transition:.4s;
+    z-index:-1;
 }
 .social a:hover::before{
     width: 100%;
