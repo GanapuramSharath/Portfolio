@@ -194,8 +194,7 @@ section{
     display:flex;
     justify-content:center;
     align-items:center;
-     position:relative;
-    overflow:hidden;
+
     width:4.5rem;
     height:4.5rem;
 
