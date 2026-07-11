@@ -187,7 +187,33 @@ section{
 .btn-box .btn:hover::before{
     width: 100%;
 }
+.social{
+    display:flex;
+    gap:2rem;
+    margin-top:2.5rem;
+}
 
+.social a{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    width:45px;
+    height:45px;
+
+    border:.2rem solid var(--main-color);
+    border-radius:50%;
+
+    color:var(--main-color);
+    background:transparent;
+
+    transition:.3s;
+}
+
+.social a:hover{
+    background:var(--main-color);
+    color:var(--bg--color);
+}
 .social a{
     position: relative;
     display: inline-flex;
