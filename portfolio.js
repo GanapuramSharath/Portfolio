@@ -48,4 +48,42 @@ function toggleReadMore() {
 function SendEmail(){
   
 }
+const roles = [
+    "Full-Stack Developer",
+    "React Developer",
+    "Backend Developer",
+    "Problem Solver"
+];
 
+const textElement = document.getElementById("typing-text");
+
+let roleIndex = 0;
+let charIndex = 0;
+let deleting = false;
+
+function typeEffect() {
+    const currentRole = roles[roleIndex];
+
+    if (!deleting) {
+        textElement.textContent = currentRole.substring(0, charIndex + 1);
+        charIndex++;
+
+        if (charIndex === currentRole.length) {
+            deleting = true;
+            setTimeout(typeEffect, 1800); // Pause after typing
+            return;
+        }
+    } else {
+        textElement.textContent = currentRole.substring(0, charIndex - 1);
+        charIndex--;
+
+        if (charIndex === 0) {
+            deleting = false;
+            roleIndex = (roleIndex + 1) % roles.length;
+        }
+    }
+
+    setTimeout(typeEffect, deleting ? 60 : 120);
+}
+
+typeEffect();
