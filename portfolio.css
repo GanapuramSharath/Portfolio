@@ -138,9 +138,18 @@ section{
     font-size: 1.6rem;
     color: var(--text-color);
 }
+.btn-box{
+    display:flex;
+    gap:2rem;
+    margin-top:3rem;
+}
+
+
 .btn-box .btn{
     background: var(--main-color);
     border: .2rem solid var(--main-color);
+    width:18rem;
+    height:5rem;
     border-radius: .8rem;
     font-size: 1.6rem;
     font-weight: 700;
