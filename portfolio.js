@@ -52,7 +52,6 @@ const roles = [
     "Full-Stack Developer",
     "React Developer",
     "Backend Developer",
-    "Problem Solver"
 ];
 
 const textElement = document.getElementById("typing-text");
