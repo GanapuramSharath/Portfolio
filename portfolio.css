@@ -62,12 +62,28 @@ section{
     padding: 10rem 9% 2rem;
 }
 .home{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:0 9%;
-    min-height:100vh;
-    background:var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 9%;
+    gap: 4rem;
+}
+
+.home-content{
+    flex: 1;
+}
+.home-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.home-image img{
+    width: 420px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 .home-imhover{
     position: absolute;
