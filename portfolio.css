@@ -87,21 +87,7 @@ section{
     height:auto;
     object-fit:contain;
 }
-.home-imhover{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 45%;
-    height: 100%;
-    background: transparent;
-    
-    transition: 3s;
-}
-.home-imhover:hover{
-    background: var(--bg-color);
-    opacity: .6;
 
-}
 .home-content h1{
     font-size: 5.6rem;
     font-weight: 700;
