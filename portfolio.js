@@ -50,8 +50,9 @@ function SendEmail(){
 }
 const roles = [
     "Full-Stack Developer",
-    "React Developer",
     "Backend Engineer",
+    "React Developer",
+    "Node.js Developer"
 ];
 
 const textElement = document.getElementById("typing-text");
